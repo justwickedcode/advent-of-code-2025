@@ -26,7 +26,7 @@ int main() {
 
         string direction;
         int distance;
-        deconstruct(input, direction, distance);  // cleaner without pointers
+        deconstruct(input, direction, distance);
 
         if (direction == "R") {
             dialPosition = (dialPosition + distance) % 100;
