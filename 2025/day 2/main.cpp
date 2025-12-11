@@ -39,7 +39,7 @@ long long sumInvalidIDs_Part1(long long start, long long end)
     return sum;
 }
 
-// Sum invalid IDs for Part 2 (at least twice)
+// Part 2
 long long sumInvalidIDs_Part2(long long start, long long end)
 {
     std::set<long long> candidates;
